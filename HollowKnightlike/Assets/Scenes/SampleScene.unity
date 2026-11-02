@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 282156bef70099d4ca3f2145122fed09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  health: 3
+  health: 10
 --- !u!1 &422265972
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,6 +745,11 @@ MonoBehaviour:
   wallCheckLeft: {fileID: 1132259960}
   wallCheckRight: {fileID: 422265973}
   wallCheckDistance: 0.4
+  moveInput: 0
+  isGrounded: 0
+  isTouchingWall: 0
+  canDoubleJump: 0
+  isDashing: 0
   facingDirection: 1
 --- !u!212 &868357732
 SpriteRenderer:
@@ -917,6 +922,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16
   playerMovement: {fileID: 868357731}
+  isAttacking: 0
 --- !u!1 &1132259959
 GameObject:
   m_ObjectHideFlags: 0
