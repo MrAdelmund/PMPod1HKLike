@@ -317,6 +317,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 2800000, guid: eccd44c0df53cb241929fc8ef6092447, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 8eeb1992b03956f4fb2ae3210af4ad77, type: 3}
+  - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
+  - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
   - {fileID: 21300000, guid: 70a4e057fc5d70240a52e8e80df299a4, type: 3}
   - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
   - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
@@ -1452,6 +1454,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 2800000, guid: eccd44c0df53cb241929fc8ef6092447, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 8eeb1992b03956f4fb2ae3210af4ad77, type: 3}
+  - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
+  - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
   - {fileID: 21300000, guid: 70a4e057fc5d70240a52e8e80df299a4, type: 3}
   - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
   - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
@@ -1994,6 +1998,11 @@ MonoBehaviour:
   wallCheckLeft: {fileID: 1036221081}
   wallCheckRight: {fileID: 813887394}
   wallCheckDistance: 0.4
+  moveInput: 0
+  isGrounded: 0
+  isTouchingWall: 0
+  canDoubleJump: 0
+  isDashing: 0
   facingDirection: 1
 --- !u!212 &212190086
 SpriteRenderer:
@@ -2063,7 +2072,7 @@ Transform:
   m_GameObject: {fileID: 212190082}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.5, y: 3.9, z: 0}
+  m_LocalPosition: {x: -12.41, y: 22.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2130,6 +2139,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16
   playerMovement: {fileID: 212190085}
+  isAttacking: 0
 --- !u!1 &276475495
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,6 +2546,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 2800000, guid: eccd44c0df53cb241929fc8ef6092447, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 8eeb1992b03956f4fb2ae3210af4ad77, type: 3}
+  - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
+  - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
   - {fileID: 21300000, guid: 70a4e057fc5d70240a52e8e80df299a4, type: 3}
   - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
   - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
@@ -3446,6 +3458,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 2800000, guid: eccd44c0df53cb241929fc8ef6092447, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 8eeb1992b03956f4fb2ae3210af4ad77, type: 3}
+  - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
+  - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
   - {fileID: 21300000, guid: 70a4e057fc5d70240a52e8e80df299a4, type: 3}
   - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
   - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
@@ -7738,6 +7752,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 2800000, guid: eccd44c0df53cb241929fc8ef6092447, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 8eeb1992b03956f4fb2ae3210af4ad77, type: 3}
+  - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
+  - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
   - {fileID: 21300000, guid: 70a4e057fc5d70240a52e8e80df299a4, type: 3}
   - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
   - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
@@ -14930,6 +14946,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 2800000, guid: eccd44c0df53cb241929fc8ef6092447, type: 3}
   m_Sprites:
   - {fileID: 21300000, guid: 8eeb1992b03956f4fb2ae3210af4ad77, type: 3}
+  - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
+  - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
   - {fileID: 21300000, guid: 70a4e057fc5d70240a52e8e80df299a4, type: 3}
   - {fileID: 21300000, guid: f0e8e201726205247bcbcc83ea05dc9d, type: 3}
   - {fileID: 21300000, guid: 5329c33c954ddba41b6a5caf1c183086, type: 3}
