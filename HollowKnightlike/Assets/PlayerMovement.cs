@@ -103,8 +103,10 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleMovement()
     {
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-
+       
+        
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        
         if (moveInput > 0)
             facingDirection = 1;
         else if (moveInput < 0)
