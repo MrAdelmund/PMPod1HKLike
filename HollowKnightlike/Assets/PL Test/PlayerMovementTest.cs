@@ -16,7 +16,7 @@ public class PlayerMovementTest : MonoBehaviour
 
     [Header("Double Jump")]
     public bool doubleJumpEnabled = true;
-     float DoubleJumps;
+    public float CurrentDoubleJumps;
     public float MaxDoubleJumps = 1f;
 
     [Header("Wall Jump")]
@@ -24,7 +24,7 @@ public class PlayerMovementTest : MonoBehaviour
     public float wallJumpForceX = 12f;
     public float wallJumpForceY = 16f;
     public bool LimitedWallJumps = false;
-    float WallJumps = 3f;
+    public float CurrentWallJumps = 3f;
     public float MaxWallJumps = 3f;
 
     [Header("Coyote Time")]
@@ -65,7 +65,7 @@ public class PlayerMovementTest : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        ;
+        
     }
 
     void Update()
@@ -89,8 +89,8 @@ public class PlayerMovementTest : MonoBehaviour
         if (isGrounded)
         {
             canDoubleJump = true;
-            DoubleJumps = MaxDoubleJumps;
-            WallJumps = MaxWallJumps;
+            CurrentDoubleJumps = MaxDoubleJumps;
+            CurrentWallJumps = MaxWallJumps;
 
             if (coyoteTimeEnabled)
                 coyoteTimer = coyoteTime;
@@ -144,13 +144,13 @@ public class PlayerMovementTest : MonoBehaviour
             // Double Jump
             else if (doubleJumpEnabled && canDoubleJump)
             {
-                { }
-                Jump();
-                DoubleJumps -= 1;
-                if (DoubleJumps <= 0)
+                if (CurrentDoubleJumps > 0)
                 {
-                    canDoubleJump = false;
+                    Jump();
+                    CurrentDoubleJumps -= 1;
                 }
+               
+                
             }
         }
     }
@@ -162,14 +162,14 @@ public class PlayerMovementTest : MonoBehaviour
 
     void WallJump()
     {
-        if (!(LimitedWallJumps && WallJumps <=0))
+        if (!(LimitedWallJumps && CurrentWallJumps <=0))
         {
 
             if (touchingWallLeft)
             {
                 rb.linearVelocity = new Vector2(wallJumpForceX, wallJumpForceY);
                 facingDirection = 1;
-                WallJumps -= 1;
+                CurrentWallJumps -= 1;
                 Debug.Log("that was a wall jump");
             }
             else if (touchingWallRight)
@@ -177,7 +177,7 @@ public class PlayerMovementTest : MonoBehaviour
                 rb.linearVelocity = new Vector2(-wallJumpForceX, wallJumpForceY);
                 facingDirection = -1;
                 Debug.Log("that was a wall jump");
-                WallJumps -= 1;
+                CurrentWallJumps -= 1;
 
             }
         }
