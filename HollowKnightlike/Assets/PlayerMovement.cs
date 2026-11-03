@@ -119,6 +119,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveInput > 0)
         {
             facingDirection = 1;
+            transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
         }
         else if (moveInput < 0)
         {
