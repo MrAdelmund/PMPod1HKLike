@@ -55,10 +55,11 @@ public class StupidEnemyAi : MonoBehaviour
                 {
                     lastDirection = direction;
 
-                    direction = 0f; 
+                    
                     
                     GameObject shot = Instantiate(bullet, transform.position, Quaternion.identity);
                     Debug.Log("i am shooting");
+                    direction = 0f;
                     time = 0;
 
                     shootDir.Normalize();
