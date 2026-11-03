@@ -1273,9 +1273,14 @@ MonoBehaviour:
   dashDuration: 0.15
   dashCooldown: 0.5
   doubleJumpEnabled: 1
+  CurrentDoubleJumps: 0
+  MaxDoubleJumps: 1
   wallJumpEnabled: 1
   wallJumpForceX: 12
   wallJumpForceY: 16
+  LimitedWallJumps: 0
+  CurrentWallJumps: 3
+  MaxWallJumps: 3
   coyoteTimeEnabled: 1
   coyoteTime: 0.15
   groundCheck: {fileID: 803903283}
@@ -1286,6 +1291,8 @@ MonoBehaviour:
   wallCheckLeft: {fileID: 1132259960}
   wallCheckRight: {fileID: 422265973}
   wallCheckDistance: 0.4
+  touchingWallLeft: 0
+  touchingWallRight: 0
   moveInput: 0
   isGrounded: 0
   isTouchingWall: 0
@@ -2363,8 +2370,8 @@ Transform:
   m_GameObject: {fileID: 1690923853}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6458, y: -5.2, z: 0}
-  m_LocalScale: {x: 25.932566, y: 1, z: 1}
+  m_LocalPosition: {x: -2.343, y: -5.2, z: 0}
+  m_LocalScale: {x: 58.60162, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
