@@ -33,7 +33,12 @@ public class PauseMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
     public void Restart()
+
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1;
