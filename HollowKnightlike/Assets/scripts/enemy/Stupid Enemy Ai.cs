@@ -23,12 +23,15 @@ public class StupidEnemyAi : MonoBehaviour
     float time = 0;
     float lastDirection;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("wall") || collision.CompareTag("enemy"))
-        {
-            direction = direction * -1;
-        }
+        
+            if (collision.gameObject.tag == "wall" || collision.gameObject.tag == "enemy" || collision.gameObject.tag == "Player")
+            {
+                direction = direction * -1;
+            }
+        
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

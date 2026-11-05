@@ -54,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
     public bool canDoubleJump;
     public bool isDashing;
 
+    public bool isJumping;
+
     float coyoteTimer;
     float dashTimer;
     float dashCooldownTimer;
@@ -80,6 +82,15 @@ public class PlayerMovement : MonoBehaviour
         HandleMovement();
         HandleJump();
         HandleDash();
+
+        if(rb.linearVelocity.y > 0)
+        {
+            isJumping = true;
+        }
+        else
+        {
+            isJumping = false;
+        }
     }
 
     void CheckGround()

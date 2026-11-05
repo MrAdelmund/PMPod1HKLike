@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 3
+  AI: {fileID: 0}
 --- !u!50 &8947537873656933404
 Rigidbody2D:
   serializedVersion: 5

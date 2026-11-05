@@ -14,6 +14,7 @@ public class PlayerAttack : MonoBehaviour
     [Header("References")]
     public PlayerMovement playerMovement;
     public bool isAttacking = false;
+    public bool isjumping = false;
 
     float cooldownTimer;
 
