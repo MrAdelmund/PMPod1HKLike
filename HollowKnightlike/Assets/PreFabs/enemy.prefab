@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8947537873656933404}
   - component: {fileID: 2631598652363555590}
   - component: {fileID: 1001176970021708938}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 3
-  AI: {fileID: 0}
+  AI: {fileID: 2631598652363555590}
 --- !u!50 &8947537873656933404
 Rigidbody2D:
   serializedVersion: 5
@@ -238,7 +238,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.014705896, y: 0.081608415}
+  m_Offset: {x: -0.0007376671, y: 0.081608415}
   m_SpriteTilingProperty:
     border: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
     pivot: {x: 0.5, y: 0.5}
@@ -248,5 +248,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.1960797, y: 0.8367832}
+  m_Size: {x: 1.0063467, y: 0.8367832}
   m_EdgeRadius: 0
