@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6424376803107000609}
   - component: {fileID: 2451411776059685657}
   - component: {fileID: 5204864694480490019}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Placeholder bullet
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 8823478993090744399}
   - component: {fileID: 7233068353228414308}
   - component: {fileID: 2775588099611945948}
-  m_Layer: 4
+  m_Layer: 9
   m_Name: enemy (ranged)
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -312,7 +312,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 3
-  AI: {fileID: 7233068353228414308}
 --- !u!50 &8823478993090744399
 Rigidbody2D:
   serializedVersion: 5
@@ -359,8 +358,8 @@ MonoBehaviour:
   ranged: 1
   range: 5
   bullet: {fileID: 371364735883426612}
-  Shotspeed: 10
-  cooldown: 1
+  Shotspeed: 5
+  cooldown: 3
 --- !u!61 &2775588099611945948
 BoxCollider2D:
   m_ObjectHideFlags: 0

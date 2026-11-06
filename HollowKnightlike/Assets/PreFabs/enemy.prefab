@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8947537873656933404}
   - component: {fileID: 2631598652363555590}
   - component: {fileID: 1001176970021708938}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -155,7 +155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 3
-  AI: {fileID: 2631598652363555590}
 --- !u!50 &8947537873656933404
 Rigidbody2D:
   serializedVersion: 5
