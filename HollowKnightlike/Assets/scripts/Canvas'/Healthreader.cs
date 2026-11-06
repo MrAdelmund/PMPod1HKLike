@@ -14,6 +14,6 @@ public class Healthreader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float PlayerHP = player.GetComponent<PlayerHealth>().health
+        float PlayerHP = player.GetComponent<PlayerHealth>().health;
     }
 }

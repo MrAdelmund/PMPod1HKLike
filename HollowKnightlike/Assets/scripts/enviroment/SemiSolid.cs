@@ -1,5 +1,6 @@
 using NUnit.Framework.Constraints;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class SemiSolid : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class SemiSolid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.GetComponent<PlayerMovement>().isJumping)
+        if (player.GetComponent<PlayerMovement>().isJumping || Keyboard.current.sKey.isPressed)
         {
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
