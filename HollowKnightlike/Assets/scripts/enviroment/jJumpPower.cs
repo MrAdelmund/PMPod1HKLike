@@ -12,8 +12,8 @@ public class jJumpPower : MonoBehaviour
     {
        // if(CompareTag("Player"))
         {
-            player.GetComponent<PlayerMovementTest>().CurrentDoubleJumps += doublejumps;
-            player.GetComponent<PlayerMovementTest>().CurrentWallJumps += Walljumps;
+            player.GetComponent<PlayerMovement>().CurrentDoubleJumps += doublejumps;
+            player.GetComponent<PlayerMovement>().CurrentWallJumps += Walljumps;
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
 
         }
@@ -27,7 +27,7 @@ public class jJumpPower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerGrounded = player.GetComponent<PlayerMovementTest>().isGrounded;
+        PlayerGrounded = player.GetComponent<PlayerMovement>().isGrounded;
       if   (PlayerGrounded == true)
         {
             gameObject.GetComponent<SpriteRenderer>().enabled = true;

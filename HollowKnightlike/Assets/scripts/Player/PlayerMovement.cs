@@ -16,11 +16,16 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Double Jump")]
     public bool doubleJumpEnabled = true;
+    public float CurrentDoubleJumps;
+    public float MaxDoubleJumps = 1f;
 
     [Header("Wall Jump")]
     public bool wallJumpEnabled = true;
     public float wallJumpForceX = 12f;
     public float wallJumpForceY = 16f;
+    public bool LimitedWallJumps = false;
+    public float CurrentWallJumps = 3f;
+    public float MaxWallJumps = 3f;
 
     [Header("Coyote Time")]
     public bool coyoteTimeEnabled = true;
@@ -36,8 +41,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform wallCheckRight;
     public float wallCheckDistance = 0.3f;
 
-    bool touchingWallLeft;
-    bool touchingWallRight;
+    [SerializeField] bool touchingWallLeft;
+    [SerializeField] bool touchingWallRight;
 
     Rigidbody2D rb;
 
@@ -48,6 +53,8 @@ public class PlayerMovement : MonoBehaviour
 
     public bool canDoubleJump;
     public bool isDashing;
+
+    public bool isJumping;
 
     float coyoteTimer;
     float dashTimer;
@@ -60,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
     }
 
     void Update()
@@ -74,6 +82,15 @@ public class PlayerMovement : MonoBehaviour
         HandleMovement();
         HandleJump();
         HandleDash();
+
+        if(rb.linearVelocity.y > 0)
+        {
+            isJumping = true;
+        }
+        else
+        {
+            isJumping = false;
+        }
     }
 
     void CheckGround()
@@ -83,6 +100,8 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded)
         {
             canDoubleJump = true;
+            CurrentDoubleJumps = MaxDoubleJumps;
+            CurrentWallJumps = MaxWallJumps;
 
             if (coyoteTimeEnabled)
                 coyoteTimer = coyoteTime;
@@ -103,15 +122,21 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleMovement()
     {
-       
-        
-            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-        
+
+
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+
+
         if (moveInput > 0)
+        {
             facingDirection = 1;
+            transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
+        }
         else if (moveInput < 0)
+        {
             facingDirection = -1;
-        transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
+        }
     }
 
     void HandleJump()
@@ -131,8 +156,13 @@ public class PlayerMovement : MonoBehaviour
             // Double Jump
             else if (doubleJumpEnabled && canDoubleJump)
             {
-                Jump();
-                canDoubleJump = false;
+                if (CurrentDoubleJumps > 0)
+                {
+                    Jump();
+                    CurrentDoubleJumps -= 1;
+                }
+
+
             }
         }
     }
@@ -144,16 +174,26 @@ public class PlayerMovement : MonoBehaviour
 
     void WallJump()
     {
-        if (touchingWallLeft)
+        if (!(LimitedWallJumps && CurrentWallJumps <= 0))
         {
-            rb.linearVelocity = new Vector2(wallJumpForceX, wallJumpForceY);
-            facingDirection = 1;
+
+            if (touchingWallLeft)
+            {
+                rb.linearVelocity = new Vector2(wallJumpForceX, wallJumpForceY);
+                facingDirection = 1;
+                CurrentWallJumps -= 1;
+                Debug.Log("that was a wall jump");
+            }
+            else if (touchingWallRight)
+            {
+                rb.linearVelocity = new Vector2(-wallJumpForceX, wallJumpForceY);
+                facingDirection = -1;
+                Debug.Log("that was a wall jump");
+                CurrentWallJumps -= 1;
+
+            }
         }
-        else if (touchingWallRight)
-        {
-            rb.linearVelocity = new Vector2(-wallJumpForceX, wallJumpForceY);
-            facingDirection = -1;
-        }
+
     }
 
 
