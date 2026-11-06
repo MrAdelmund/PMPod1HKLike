@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 8364fb9b9cc141442ad6de7097d60a8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5715414064072213968
+    second: Elevator Closing Animation_0
+  - first:
+      213: 7806732788563427172
+    second: Elevator Closing Animation_1
+  - first:
+      213: -581060105387258324
+    second: Elevator Closing Animation_2
+  - first:
+      213: -7855804997187300771
+    second: Elevator Closing Animation_3
+  - first:
+      213: -9064196678463952902
+    second: Elevator Closing Animation_4
+  - first:
+      213: -910745931957956802
+    second: Elevator Closing Animation_5
+  - first:
+      213: -4896318834189588149
+    second: Elevator Closing Animation_6
+  - first:
+      213: -8653361803496049915
+    second: Elevator Closing Animation_7
+  - first:
+      213: 9128633422998087779
+    second: Elevator Closing Animation_8
+  - first:
+      213: 4798237504771131899
+    second: Elevator Closing Animation_9
+  - first:
+      213: 2130486053082893996
+    second: Elevator Closing Animation_10
+  - first:
+      213: -5648705122060278374
+    second: Elevator Closing Animation_11
+  - first:
+      213: -5485358055989488574
+    second: Elevator Closing Animation_12
+  - first:
+      213: -7573472851195233492
+    second: Elevator Closing Animation_13
+  - first:
+      213: -4787901839041674128
+    second: Elevator Closing Animation_14
+  - first:
+      213: -4321242238244929017
+    second: Elevator Closing Animation_15
+  - first:
+      213: -6949795963662894367
+    second: Elevator Closing Animation_16
+  - first:
+      213: 1681089327811407241
+    second: Elevator Closing Animation_17
+  - first:
+      213: -3401078833087140398
+    second: Elevator Closing Animation_18
+  - first:
+      213: -8929722378120436115
+    second: Elevator Closing Animation_19
+  - first:
+      213: -694263056434497064
+    second: Elevator Closing Animation_20
+  - first:
+      213: 3233494585806820388
+    second: Elevator Closing Animation_21
+  - first:
+      213: -5182615796262184130
+    second: Elevator Closing Animation_22
+  - first:
+      213: 8358853712062210934
+    second: Elevator Closing Animation_23
+  - first:
+      213: -4166392020089310694
+    second: Elevator Closing Animation_24
+  - first:
+      213: 3599635680264753011
+    second: Elevator Closing Animation_25
+  - first:
+      213: 3910211341077247815
+    second: Elevator Closing Animation_26
+  - first:
+      213: -3215431818049661553
+    second: Elevator Closing Animation_27
+  - first:
+      213: 7966718997092703459
+    second: Elevator Closing Animation_28
+  - first:
+      213: -7348049681779405838
+    second: Elevator Closing Animation_29
+  - first:
+      213: -386340687155280354
+    second: Elevator Closing Animation_30
+  - first:
+      213: -829605207713008503
+    second: Elevator Closing Animation_31
+  - first:
+      213: 4163551991377188452
+    second: Elevator Closing Animation_32
+  - first:
+      213: 2344032684417047985
+    second: Elevator Closing Animation_33
+  - first:
+      213: -5132759950471682267
+    second: Elevator Closing Animation_34
+  - first:
+      213: -3876041089715582580
+    second: Elevator Closing Animation_35
+  - first:
+      213: 168804600074287068
+    second: Elevator Closing Animation_36
+  - first:
+      213: -8038021931437778911
+    second: Elevator Closing Animation_37
+  - first:
+      213: -6379466050600138275
+    second: Elevator Closing Animation_38
+  - first:
+      213: -7841727598352754838
+    second: Elevator Closing Animation_39
+  - first:
+      213: 3230806634766147622
+    second: Elevator Closing Animation_40
+  - first:
+      213: -74606814525983426
+    second: Elevator Closing Animation_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elevator Closing Animation_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5cb494fca315f40800000000000000
+      internalID: 5715414064072213968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fb7befb16175c60800000000000000
+      internalID: 7806732788563427172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ecd39a9e8afe7f0800000000000000
+      internalID: -581060105387258324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5299e51af29af290800000000000000
+      internalID: -7855804997187300771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_4
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af761e52521853280800000000000000
+      internalID: -9064196678463952902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_5
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f830576616c53f0800000000000000
+      internalID: -910745931957956802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_6
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49231d46f7cc0cb0800000000000000
+      internalID: -4896318834189588149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5033fa5894519e780800000000000000
+      internalID: -8653361803496049915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_8
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3682f8e8bbb6fae70800000000000000
+      internalID: 9128633422998087779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_9
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf907d3a693c69240800000000000000
+      internalID: 4798237504771131899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae0ee807c1019d10800000000000000
+      internalID: 2130486053082893996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_11
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95eaae9e94cb91b0800000000000000
+      internalID: -5648705122060278374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_12
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2445be629e710e3b0800000000000000
+      internalID: -5485358055989488574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_13
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b717c519e95e690800000000000000
+      internalID: -7573472851195233492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0744b7015a4fd8db0800000000000000
+      internalID: -4787901839041674128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7024ff8441dd704c0800000000000000
+      internalID: -4321242238244929017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eafd64846d5d8f90800000000000000
+      internalID: -6949795963662894367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d26eb36dd645710800000000000000
+      internalID: 1681089327811407241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddadbc22d0fcc0d0800000000000000
+      internalID: -3401078833087140398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66664d0fc0431480800000000000000
+      internalID: -8929722378120436115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_20
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d97b84bd6b7d56f0800000000000000
+      internalID: -694263056434497064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4241a2aa13eafdc20800000000000000
+      internalID: 3233494585806820388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_22
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bd6785466a318b0800000000000000
+      internalID: -5182615796262184130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6736cecf92d900470800000000000000
+      internalID: 8358853712062210934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_24
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12fd8f38800e26c0800000000000000
+      internalID: -4166392020089310694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_25
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f800b549974f130800000000000000
+      internalID: 3599635680264753011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_26
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747fc9d5f7cd34630800000000000000
+      internalID: 3910211341077247815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8559ad2ccd7063d0800000000000000
+      internalID: -3215431818049661553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_28
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec1117e7b87f8e60800000000000000
+      internalID: 7966718997092703459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_29
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbcd9dfebb760a90800000000000000
+      internalID: -7348049681779405838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_30
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1644d3213173aaf0800000000000000
+      internalID: -386340687155280354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_31
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984b3728576ac74f0800000000000000
+      internalID: -829605207713008503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_32
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46658e90a78e7c930800000000000000
+      internalID: 4163551991377188452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_33
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd5598ae4da78020800000000000000
+      internalID: 2344032684417047985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_34
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527a8c20506c4c8b0800000000000000
+      internalID: -5132759950471682267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_35
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c894fa04a29853ac0800000000000000
+      internalID: -3876041089715582580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_36
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd731efa3e6b75200800000000000000
+      internalID: 168804600074287068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_37
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1281adff3a5337090800000000000000
+      internalID: -8038021931437778911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_38
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd980554d659777a0800000000000000
+      internalID: -6379466050600138275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_39
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a679ecaeb469c2390800000000000000
+      internalID: -7841727598352754838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_40
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620263b448126dc20800000000000000
+      internalID: 3230806634766147622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Closing Animation_41
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35fa5a5f71f6fef0800000000000000
+      internalID: -74606814525983426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elevator Closing Animation_0: 5715414064072213968
+      Elevator Closing Animation_1: 7806732788563427172
+      Elevator Closing Animation_10: 2130486053082893996
+      Elevator Closing Animation_11: -5648705122060278374
+      Elevator Closing Animation_12: -5485358055989488574
+      Elevator Closing Animation_13: -7573472851195233492
+      Elevator Closing Animation_14: -4787901839041674128
+      Elevator Closing Animation_15: -4321242238244929017
+      Elevator Closing Animation_16: -6949795963662894367
+      Elevator Closing Animation_17: 1681089327811407241
+      Elevator Closing Animation_18: -3401078833087140398
+      Elevator Closing Animation_19: -8929722378120436115
+      Elevator Closing Animation_2: -581060105387258324
+      Elevator Closing Animation_20: -694263056434497064
+      Elevator Closing Animation_21: 3233494585806820388
+      Elevator Closing Animation_22: -5182615796262184130
+      Elevator Closing Animation_23: 8358853712062210934
+      Elevator Closing Animation_24: -4166392020089310694
+      Elevator Closing Animation_25: 3599635680264753011
+      Elevator Closing Animation_26: 3910211341077247815
+      Elevator Closing Animation_27: -3215431818049661553
+      Elevator Closing Animation_28: 7966718997092703459
+      Elevator Closing Animation_29: -7348049681779405838
+      Elevator Closing Animation_3: -7855804997187300771
+      Elevator Closing Animation_30: -386340687155280354
+      Elevator Closing Animation_31: -829605207713008503
+      Elevator Closing Animation_32: 4163551991377188452
+      Elevator Closing Animation_33: 2344032684417047985
+      Elevator Closing Animation_34: -5132759950471682267
+      Elevator Closing Animation_35: -3876041089715582580
+      Elevator Closing Animation_36: 168804600074287068
+      Elevator Closing Animation_37: -8038021931437778911
+      Elevator Closing Animation_38: -6379466050600138275
+      Elevator Closing Animation_39: -7841727598352754838
+      Elevator Closing Animation_4: -9064196678463952902
+      Elevator Closing Animation_40: 3230806634766147622
+      Elevator Closing Animation_41: -74606814525983426
+      Elevator Closing Animation_5: -910745931957956802
+      Elevator Closing Animation_6: -4896318834189588149
+      Elevator Closing Animation_7: -8653361803496049915
+      Elevator Closing Animation_8: 9128633422998087779
+      Elevator Closing Animation_9: 4798237504771131899
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

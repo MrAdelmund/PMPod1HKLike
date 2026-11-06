@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 981a930e61179764eaedc360c2cd8b93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 576336424223119538
+    second: Elevator Opening animation_0
+  - first:
+      213: -5875962632342699909
+    second: Elevator Opening animation_1
+  - first:
+      213: -8418236098618170938
+    second: Elevator Opening animation_2
+  - first:
+      213: -81874184552359382
+    second: Elevator Opening animation_3
+  - first:
+      213: 4917662993044857357
+    second: Elevator Opening animation_4
+  - first:
+      213: 3630503340790768235
+    second: Elevator Opening animation_5
+  - first:
+      213: 261131230716255394
+    second: Elevator Opening animation_6
+  - first:
+      213: 4219358166741611576
+    second: Elevator Opening animation_7
+  - first:
+      213: -3558554605702324472
+    second: Elevator Opening animation_8
+  - first:
+      213: -7006201997455540267
+    second: Elevator Opening animation_9
+  - first:
+      213: 7053277487378271713
+    second: Elevator Opening animation_10
+  - first:
+      213: -1992074160978186825
+    second: Elevator Opening animation_11
+  - first:
+      213: 8417515205146187788
+    second: Elevator Opening animation_12
+  - first:
+      213: 4123127560545387359
+    second: Elevator Opening animation_13
+  - first:
+      213: 2016703671075045901
+    second: Elevator Opening animation_14
+  - first:
+      213: 1362662326155405098
+    second: Elevator Opening animation_15
+  - first:
+      213: 7682318569662452704
+    second: Elevator Opening animation_16
+  - first:
+      213: 6838025993622683511
+    second: Elevator Opening animation_17
+  - first:
+      213: -4420813000957530638
+    second: Elevator Opening animation_18
+  - first:
+      213: 62869924790216816
+    second: Elevator Opening animation_19
+  - first:
+      213: -463321454784932790
+    second: Elevator Opening animation_20
+  - first:
+      213: 6868316619073805243
+    second: Elevator Opening animation_21
+  - first:
+      213: 4655285316856129321
+    second: Elevator Opening animation_22
+  - first:
+      213: -4170309261221896317
+    second: Elevator Opening animation_23
+  - first:
+      213: -883834375385147580
+    second: Elevator Opening animation_24
+  - first:
+      213: 1394335299407738573
+    second: Elevator Opening animation_25
+  - first:
+      213: 7523937864126248977
+    second: Elevator Opening animation_26
+  - first:
+      213: -2623904289036117906
+    second: Elevator Opening animation_27
+  - first:
+      213: 3199763024133867751
+    second: Elevator Opening animation_28
+  - first:
+      213: 6428833273009196761
+    second: Elevator Opening animation_29
+  - first:
+      213: -236633339311068394
+    second: Elevator Opening animation_30
+  - first:
+      213: -142704218582342440
+    second: Elevator Opening animation_31
+  - first:
+      213: 3296462886811625993
+    second: Elevator Opening animation_32
+  - first:
+      213: 8198628275282730125
+    second: Elevator Opening animation_33
+  - first:
+      213: -5681864095503395194
+    second: Elevator Opening animation_34
+  - first:
+      213: 3942091154945806226
+    second: Elevator Opening animation_35
+  - first:
+      213: 966449823354717288
+    second: Elevator Opening animation_36
+  - first:
+      213: -1500696376118487480
+    second: Elevator Opening animation_37
+  - first:
+      213: 5298756587636517610
+    second: Elevator Opening animation_38
+  - first:
+      213: 8056676853571935270
+    second: Elevator Opening animation_39
+  - first:
+      213: 8917877261408311361
+    second: Elevator Opening animation_40
+  - first:
+      213: -8464617903801728767
+    second: Elevator Opening animation_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elevator Opening animation_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b810fc9cee8ff700800000000000000
+      internalID: 576336424223119538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b708eb93e13647ea0800000000000000
+      internalID: -5875962632342699909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c16e7abeda6c2b80800000000000000
+      internalID: -8418236098618170938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a5b79ecdf1ddef0800000000000000
+      internalID: -81874184552359382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_4
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02e581ff6c0f3440800000000000000
+      internalID: 4917662993044857357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_5
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62e3bf9d83226230800000000000000
+      internalID: 3630503340790768235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_6
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac5a968879bf9300800000000000000
+      internalID: 261131230716255394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834f6c4c5eb2e8a30800000000000000
+      internalID: 4219358166741611576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_8
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f584da0797d9ec0800000000000000
+      internalID: -3558554605702324472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_9
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfb70d5768f4ce90800000000000000
+      internalID: -7006201997455540267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed0171418642e160800000000000000
+      internalID: 7053277487378271713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_11
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd29a4ea1bba54e0800000000000000
+      internalID: -1992074160978186825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_12
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08103e2b7501d470800000000000000
+      internalID: 8417515205146187788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_13
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 105
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f534ee9cbaa483930800000000000000
+      internalID: 4123127560545387359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0287abcd45ccfb10800000000000000
+      internalID: 2016703671075045901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27ec4b7a2629e210800000000000000
+      internalID: 1362662326155405098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e31e1459041d9a60800000000000000
+      internalID: 7682318569662452704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f74ca696c85ee50800000000000000
+      internalID: 6838025993622683511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd6f738ffd16a2c0800000000000000
+      internalID: -4420813000957530638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0782d2e0ddb5fd000800000000000000
+      internalID: 62869924790216816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_20
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a441ab67793f199f0800000000000000
+      internalID: -463321454784932790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb5ecc3399215f50800000000000000
+      internalID: 6868316619073805243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_22
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9272d47b455ea9040800000000000000
+      internalID: 4655285316856129321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fd85972d51026c0800000000000000
+      internalID: -4170309261221896317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_24
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44793ee715dfbb3f0800000000000000
+      internalID: -883834375385147580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_25
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc67cfa319ca95310800000000000000
+      internalID: 1394335299407738573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_26
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1183b57bf956a6860800000000000000
+      internalID: 7523937864126248977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68d06f73f4069bd0800000000000000
+      internalID: -2623904289036117906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_28
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8cde27487d76c20800000000000000
+      internalID: 3199763024133867751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_29
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9decce5eccdc73950800000000000000
+      internalID: 6428833273009196761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_30
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b695c4b3f47bcf0800000000000000
+      internalID: -236633339311068394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_31
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4237fe443050ef0800000000000000
+      internalID: -142704218582342440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_32
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a6aa7b7836fbd20800000000000000
+      internalID: 3296462886811625993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_33
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c53b96af067c170800000000000000
+      internalID: 8198628275282730125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_34
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686597d75b6f521b0800000000000000
+      internalID: -5681864095503395194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_35
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f01c2f40f15b630800000000000000
+      internalID: 3942091154945806226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_36
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8640c4e6ef4896d00800000000000000
+      internalID: 966449823354717288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_37
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846ddb1d8947c2be0800000000000000
+      internalID: -1500696376118487480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_38
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeae55dda07f88940800000000000000
+      internalID: 5298756587636517610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_39
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c544789e01fcf60800000000000000
+      internalID: 8056676853571935270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_40
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 0
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14896ccce1aa2cb70800000000000000
+      internalID: 8917877261408311361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elevator Opening animation_41
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1018c7c2dd2a78a80800000000000000
+      internalID: -8464617903801728767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elevator Opening animation_0: 576336424223119538
+      Elevator Opening animation_1: -5875962632342699909
+      Elevator Opening animation_10: 7053277487378271713
+      Elevator Opening animation_11: -1992074160978186825
+      Elevator Opening animation_12: 8417515205146187788
+      Elevator Opening animation_13: 4123127560545387359
+      Elevator Opening animation_14: 2016703671075045901
+      Elevator Opening animation_15: 1362662326155405098
+      Elevator Opening animation_16: 7682318569662452704
+      Elevator Opening animation_17: 6838025993622683511
+      Elevator Opening animation_18: -4420813000957530638
+      Elevator Opening animation_19: 62869924790216816
+      Elevator Opening animation_2: -8418236098618170938
+      Elevator Opening animation_20: -463321454784932790
+      Elevator Opening animation_21: 6868316619073805243
+      Elevator Opening animation_22: 4655285316856129321
+      Elevator Opening animation_23: -4170309261221896317
+      Elevator Opening animation_24: -883834375385147580
+      Elevator Opening animation_25: 1394335299407738573
+      Elevator Opening animation_26: 7523937864126248977
+      Elevator Opening animation_27: -2623904289036117906
+      Elevator Opening animation_28: 3199763024133867751
+      Elevator Opening animation_29: 6428833273009196761
+      Elevator Opening animation_3: -81874184552359382
+      Elevator Opening animation_30: -236633339311068394
+      Elevator Opening animation_31: -142704218582342440
+      Elevator Opening animation_32: 3296462886811625993
+      Elevator Opening animation_33: 8198628275282730125
+      Elevator Opening animation_34: -5681864095503395194
+      Elevator Opening animation_35: 3942091154945806226
+      Elevator Opening animation_36: 966449823354717288
+      Elevator Opening animation_37: -1500696376118487480
+      Elevator Opening animation_38: 5298756587636517610
+      Elevator Opening animation_39: 8056676853571935270
+      Elevator Opening animation_4: 4917662993044857357
+      Elevator Opening animation_40: 8917877261408311361
+      Elevator Opening animation_41: -8464617903801728767
+      Elevator Opening animation_5: 3630503340790768235
+      Elevator Opening animation_6: 261131230716255394
+      Elevator Opening animation_7: 4219358166741611576
+      Elevator Opening animation_8: -3558554605702324472
+      Elevator Opening animation_9: -7006201997455540267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
