@@ -33,6 +33,10 @@ public class PlayerHealth : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+    void updateText()
+    {
+        healthText.text = "Health: " + health;
+    }
     void Hurt()
     {
         if ((PlayerDashing == false && DashGivesIFrames) || DashGivesIFrames == false)
