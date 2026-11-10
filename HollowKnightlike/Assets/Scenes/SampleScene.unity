@@ -1183,6 +1183,10 @@ PrefabInstance:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 1653605941}
+    - target: {fileID: 8675554230110504115, guid: fc4cf98b982f07242b9bdc635e8b57f6, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 1653605941}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
