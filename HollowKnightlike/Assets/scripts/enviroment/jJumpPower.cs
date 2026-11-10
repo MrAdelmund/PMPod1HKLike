@@ -6,6 +6,7 @@ public class jJumpPower : MonoBehaviour
     public float Walljumps;
     public float doublejumps;
     public int Health;
+    public bool IsInfinite;
 
     [Header("Upgrade Stuff")]
     public bool IsUpgrade; 
@@ -25,19 +26,20 @@ public class jJumpPower : MonoBehaviour
             player.GetComponent<PlayerMovement>().MaxWallJumps += MaxWallJumps;
             player.GetComponent<PlayerHealth>().health += Health;
             player.BroadcastMessage("updateText");
-            if (IsUpgrade)
+            if (usesDashes)
             {
                 player.GetComponent<PlayerMovement>().dashEnabled = CanDash;
             }
-                if (usesDashes)
+            if (IsUpgrade)
             {
                 Destroy(gameObject);
             }
             else
             {
-
+                if (!IsInfinite)
+                { 
                 gameObject.GetComponent<SpriteRenderer>().enabled = false;
-
+                }
             }
         }
     }

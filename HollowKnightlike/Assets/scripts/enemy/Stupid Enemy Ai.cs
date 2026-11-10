@@ -56,13 +56,10 @@ public class StupidEnemyAi : MonoBehaviour
 
                 if (shootDir.magnitude < range)
                 {
-                    lastDirection = direction;
 
-                    
-                    
                     GameObject shot = Instantiate(bullet, transform.position, Quaternion.identity);
                     Debug.Log("i am shooting");
-                    direction = 0f;
+                    
                     time = 0;
 
                     shootDir.Normalize();
@@ -70,10 +67,7 @@ public class StupidEnemyAi : MonoBehaviour
                     shot.GetComponent<Rigidbody2D>().linearVelocity = shootDir * Shotspeed;
                     Destroy(shot, 10);
                 }
-                else
-                {
-                    direction = lastDirection; 
-                }
+                
                
             }
 

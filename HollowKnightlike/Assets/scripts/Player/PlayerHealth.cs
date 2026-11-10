@@ -1,3 +1,4 @@
+using System.Drawing;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEditor;
@@ -7,10 +8,16 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int health = 3;
-    public TMP_Text healthText;
+    
     public bool DashGivesIFrames;
-    public PlayerMovement PlayerMovement;
+    public float IFrames;
+  
+    [Header("ref")]
+    public TMP_Text healthText;
     public bool PlayerDashing;
+    public bool Invincible;
+    public PlayerMovement PlayerMovement;
+    public SpriteRenderer PlayerSpriteRenderer;
 
     private void Start()
     {
@@ -27,6 +34,15 @@ public class PlayerHealth : MonoBehaviour
             PlayerDashing = false;
         }
 
+        if (Invincible)
+        {
+            PlayerSpriteRenderer.color = new UnityEngine.Color(PlayerSpriteRenderer.color.r,PlayerSpriteRenderer.color.g,PlayerSpriteRenderer.color.b, 0.5f);
+        }
+        else
+        {
+            PlayerSpriteRenderer.color = new UnityEngine.Color(PlayerSpriteRenderer.color.r, PlayerSpriteRenderer.color.g, PlayerSpriteRenderer.color.b, 1f);
+        }
+
         if (health <= 0)
         {
             Debug.Log("I'm dead!");
@@ -37,19 +53,35 @@ public class PlayerHealth : MonoBehaviour
     {
         healthText.text = "Health: " + health;
     }
+    void IFrame()
+    {
+        if (Invincible)
+        {
+            Invincible = false;
+        }
+        else
+        {
+            Invoke(nameof(IFrame), IFrames);
+            Invincible = true;
+
+        }
+    }
+        
     void Hurt()
     {
+        if (!Invincible)
         if ((PlayerDashing == false && DashGivesIFrames) || DashGivesIFrames == false)
         {
             Debug.Log("owch");
             health -= 1;
-            healthText.text = "Health: " + health;
+                updateText();
+                IFrame();
+                
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if ((PlayerDashing == false && DashGivesIFrames) || DashGivesIFrames == false)
-     
+    
         if (collision.gameObject.CompareTag("enemy"))
         {
             Hurt();
@@ -58,8 +90,9 @@ public class PlayerHealth : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemy"))
+        {
             Hurt();
+        }
     }
-
 
 }
