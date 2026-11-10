@@ -174,7 +174,7 @@ public class PlayerMovement : MonoBehaviour
 
     void WallJump()
     {
-        if (!(LimitedWallJumps && CurrentWallJumps <= 0))
+        if ((LimitedWallJumps && CurrentWallJumps > 0) || LimitedWallJumps == false )
         {
 
             if (touchingWallLeft)

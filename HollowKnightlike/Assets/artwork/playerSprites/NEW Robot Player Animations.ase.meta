@@ -1021,7 +1021,11 @@ ScriptedImporter:
       y: 136
       width: 13
       height: 14
+<<<<<<< HEAD:HollowKnightlike/Assets/artwork/playerSprites/NEW Robot Player Animations.ase.meta
     spriteID: b1c221988ac1a944793415427f0f42e7
+=======
+    spriteID: 8a13b263296372c43b45f963b0897735
+>>>>>>> 4b229d3d0b9d6da4b812ddf8a857a08c18962124:HollowKnightlike/Assets/artwork/Robot CLeaning Animations.ase.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1422,7 +1426,11 @@ ScriptedImporter:
         y: 16
         width: 13
         height: 12
+<<<<<<< HEAD:HollowKnightlike/Assets/artwork/playerSprites/NEW Robot Player Animations.ase.meta
       spriteId: c6b67e4b5809bb2469ac5c481b9b6363
+=======
+      spriteId: dee707720dd158442b3a0ee44f063d69
+>>>>>>> 4b229d3d0b9d6da4b812ddf8a857a08c18962124:HollowKnightlike/Assets/artwork/Robot CLeaning Animations.ase.meta
     - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
@@ -1431,7 +1439,11 @@ ScriptedImporter:
         y: 16
         width: 13
         height: 14
+<<<<<<< HEAD:HollowKnightlike/Assets/artwork/playerSprites/NEW Robot Player Animations.ase.meta
       spriteId: b1c221988ac1a944793415427f0f42e7
+=======
+      spriteId: 8a13b263296372c43b45f963b0897735
+>>>>>>> 4b229d3d0b9d6da4b812ddf8a857a08c18962124:HollowKnightlike/Assets/artwork/Robot CLeaning Animations.ase.meta
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
