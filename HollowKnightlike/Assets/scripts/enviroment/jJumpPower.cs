@@ -11,6 +11,7 @@ public class jJumpPower : MonoBehaviour
     public bool IsUpgrade; 
     public float MaxWallJumps = 0;
     public float MaxDoubleJumps = 0;
+    public bool usesDashes;
     public bool CanDash;
     public bool PlayerGrounded;
 
@@ -28,7 +29,7 @@ public class jJumpPower : MonoBehaviour
             {
                 player.GetComponent<PlayerMovement>().dashEnabled = CanDash;
             }
-                if (IsUpgrade)
+                if (usesDashes)
             {
                 Destroy(gameObject);
             }
