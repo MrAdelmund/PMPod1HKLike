@@ -1,13 +1,38 @@
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     public int health = 3;
-    
+    public bool invulnrable;
+    float colorR;
+    float ColorG;
+    float ColorB;
+
+    private void Start()
+    {
+        colorR = gameObject.GetComponent<SpriteRenderer>().color.r;
+        ColorG = gameObject.GetComponent<SpriteRenderer>().color.g;
+        ColorB = gameObject.GetComponent<SpriteRenderer>().color.b;
+    }
+    void flash ()
+    {
+        invulnrable = true;
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(200, 0, 0);
+        Invoke(nameof(unflash), 0.125f);
+    }
+    void unflash ()
+    {
+        invulnrable = false;
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(colorR, ColorG, ColorB);
+    }
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        
+        if (!invulnrable)
+        { 
+            health -= damage;
+        flash();
+        }
 
         if (health <= 0)
         {

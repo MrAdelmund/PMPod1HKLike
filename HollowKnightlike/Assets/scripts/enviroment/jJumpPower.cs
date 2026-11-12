@@ -18,7 +18,7 @@ public class jJumpPower : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       // if(CompareTag("Player"))
+       if(collision.CompareTag("Player"))
         {
             player.GetComponent<PlayerMovement>().CurrentDoubleJumps += doublejumps;
             player.GetComponent<PlayerMovement>().CurrentWallJumps += Walljumps;
