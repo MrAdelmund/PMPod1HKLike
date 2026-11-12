@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public bool doubleJumpEnabled = true;
     public float CurrentDoubleJumps;
     public float MaxDoubleJumps = 1f;
+    public float DoubleJumpBonus = 2f;
 
     [Header("Wall Jump")]
     public bool wallJumpEnabled = true;
@@ -158,8 +159,9 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (CurrentDoubleJumps > 0)
                 {
-                    Jump();
                     CurrentDoubleJumps -= 1;
+                    Jump();
+                   
                 }
 
 
@@ -169,7 +171,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        if (CurrentDoubleJumps < MaxDoubleJumps)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce + DoubleJumpBonus);
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        }
     }
 
     void WallJump()
