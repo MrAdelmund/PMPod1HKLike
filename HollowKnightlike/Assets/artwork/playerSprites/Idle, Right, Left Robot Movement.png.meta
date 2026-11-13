@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d477977b633d914458f877ff7470fc8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9175897196448097256
+    second: Idle, Right, Left Robot Movement_0
+  - first:
+      213: 1942511372320994689
+    second: Idle, Right, Left Robot Movement_1
+  - first:
+      213: 9091975247036088593
+    second: Idle, Right, Left Robot Movement_2
+  - first:
+      213: 5718276830266237680
+    second: Idle, Right, Left Robot Movement_3
+  - first:
+      213: 3003959222992146626
+    second: Idle, Right, Left Robot Movement_4
+  - first:
+      213: 4912421918777858935
+    second: Idle, Right, Left Robot Movement_5
+  - first:
+      213: -3391708593670078756
+    second: Idle, Right, Left Robot Movement_6
+  - first:
+      213: -3076871081377785872
+    second: Idle, Right, Left Robot Movement_7
+  - first:
+      213: -5746056339884272302
+    second: Idle, Right, Left Robot Movement_8
+  - first:
+      213: 4877559917540440109
+    second: Idle, Right, Left Robot Movement_9
+  - first:
+      213: -7888718521850700193
+    second: Idle, Right, Left Robot Movement_10
+  - first:
+      213: 8732841363548796491
+    second: Idle, Right, Left Robot Movement_11
+  - first:
+      213: 5493015145004917685
+    second: Idle, Right, Left Robot Movement_12
+  - first:
+      213: -7277789493552780778
+    second: Idle, Right, Left Robot Movement_13
+  - first:
+      213: 8478443325461793433
+    second: Idle, Right, Left Robot Movement_14
+  - first:
+      213: 784357426044481882
+    second: Idle, Right, Left Robot Movement_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3aac952e5575f70800000000000000
+      internalID: 9175897196448097256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185795f1dcf25fa10800000000000000
+      internalID: 1942511372320994689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1110b3ad05f2d2e70800000000000000
+      internalID: 9091975247036088593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2ad5bfa766b5f40800000000000000
+      internalID: 5718276830266237680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c094366ff430b920800000000000000
+      internalID: 3003959222992146626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bd89f35bd6c2440800000000000000
+      internalID: 4912421918777858935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeb7ac010b3ee0d0800000000000000
+      internalID: -3391708593670078756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f71ecead02cc45d0800000000000000
+      internalID: -3076871081377785872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25511d9e338e140b0800000000000000
+      internalID: -5746056339884272302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_9
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 15
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d287eaf07e290b340800000000000000
+      internalID: 4877559917540440109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_10
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 15
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e5b04fc44a58290800000000000000
+      internalID: -7888718521850700193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_11
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46f92a93f8413970800000000000000
+      internalID: 8732841363548796491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_12
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3ebdfcb2c1b3c40800000000000000
+      internalID: 5493015145004917685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_13
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 15
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a67b6d309100b90800000000000000
+      internalID: -7277789493552780778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 15
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a8e66a84b79a570800000000000000
+      internalID: 8478443325461793433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle, Right, Left Robot Movement_15
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51325c5ce892ea00800000000000000
+      internalID: 784357426044481882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Idle, Right, Left Robot Movement_0: 9175897196448097256
+      Idle, Right, Left Robot Movement_1: 1942511372320994689
+      Idle, Right, Left Robot Movement_10: -7888718521850700193
+      Idle, Right, Left Robot Movement_11: 8732841363548796491
+      Idle, Right, Left Robot Movement_12: 5493015145004917685
+      Idle, Right, Left Robot Movement_13: -7277789493552780778
+      Idle, Right, Left Robot Movement_14: 8478443325461793433
+      Idle, Right, Left Robot Movement_15: 784357426044481882
+      Idle, Right, Left Robot Movement_2: 9091975247036088593
+      Idle, Right, Left Robot Movement_3: 5718276830266237680
+      Idle, Right, Left Robot Movement_4: 3003959222992146626
+      Idle, Right, Left Robot Movement_5: 4912421918777858935
+      Idle, Right, Left Robot Movement_6: -3391708593670078756
+      Idle, Right, Left Robot Movement_7: -3076871081377785872
+      Idle, Right, Left Robot Movement_8: -5746056339884272302
+      Idle, Right, Left Robot Movement_9: 4877559917540440109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: cc077bc94b9b314478b567e69ddc6948
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8428571065857241238
+    second: Cleaning Ability Right Robot Player_0
+  - first:
+      213: 2177564138580413725
+    second: Cleaning Ability Right Robot Player_1
+  - first:
+      213: -7657595955751059776
+    second: Cleaning Ability Right Robot Player_2
+  - first:
+      213: -6430284306903899624
+    second: Cleaning Ability Right Robot Player_3
+  - first:
+      213: 1329414896780205072
+    second: Cleaning Ability Right Robot Player_4
+  - first:
+      213: -3898999295067613588
+    second: Cleaning Ability Right Robot Player_5
+  - first:
+      213: -857420282468370167
+    second: Cleaning Ability Right Robot Player_6
+  - first:
+      213: -2983584957038803722
+    second: Cleaning Ability Right Robot Player_7
+  - first:
+      213: -2321200021249851273
+    second: Cleaning Ability Right Robot Player_8
+  - first:
+      213: 2142081752081042516
+    second: Cleaning Ability Right Robot Player_9
+  - first:
+      213: 8188027333935895617
+    second: Cleaning Ability Right Robot Player_10
+  - first:
+      213: 3484147998215790085
+    second: Cleaning Ability Right Robot Player_11
+  - first:
+      213: -3418251113194414138
+    second: Cleaning Ability Right Robot Player_12
+  - first:
+      213: 3996381165086604413
+    second: Cleaning Ability Right Robot Player_13
+  - first:
+      213: 7654475626704541467
+    second: Cleaning Ability Right Robot Player_14
+  - first:
+      213: 4822732683596519067
+    second: Cleaning Ability Right Robot Player_15
+  - first:
+      213: -8272575454098710934
+    second: Cleaning Ability Right Robot Player_16
+  - first:
+      213: 4554597098457650766
+    second: Cleaning Ability Right Robot Player_17
+  - first:
+      213: 4862312555297369471
+    second: Cleaning Ability Right Robot Player_18
+  - first:
+      213: -4969361399175656259
+    second: Cleaning Ability Right Robot Player_19
+  - first:
+      213: -3182357116102458319
+    second: Cleaning Ability Right Robot Player_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 14
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f8177a543b70b80800000000000000
+      internalID: -8428571065857241238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 14
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d07bbfb03483e10800000000000000
+      internalID: 2177564138580413725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 14
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce7df7cc01cab590800000000000000
+      internalID: -7657595955751059776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 14
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8126932fd7a03c6a0800000000000000
+      internalID: -6430284306903899624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 14
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c52b91ec7037210800000000000000
+      internalID: 1329414896780205072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 14
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c661ff58cc8f3e9c0800000000000000
+      internalID: -3898999295067613588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 14
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909f140cbc4d914f0800000000000000
+      internalID: -857420282468370167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 14
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4c08e0a4d2896d0800000000000000
+      internalID: -2983584957038803722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 14
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77006c001e079cfd0800000000000000
+      internalID: -2321200021249851273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_9
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 14
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c03a811043abd10800000000000000
+      internalID: 2142081752081042516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_10
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 14
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144107a6a77b1a170800000000000000
+      internalID: 8188027333935895617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 14
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e5a82052e2a5030800000000000000
+      internalID: 3484147998215790085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_12
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 14
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf96f429beef80d0800000000000000
+      internalID: -3418251113194414138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_13
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 14
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c7c04fe7ff57730800000000000000
+      internalID: 3996381165086604413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_14
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 14
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b171c9ff6092a3a60800000000000000
+      internalID: 7654475626704541467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_15
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 14
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96df64e2d9cde240800000000000000
+      internalID: 4822732683596519067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_16
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 14
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e94d85478e13d80800000000000000
+      internalID: -8272575454098710934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_17
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 14
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46d7940eed253f30800000000000000
+      internalID: 4554597098457650766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_18
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 14
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7deb65e1876a7340800000000000000
+      internalID: 4862312555297369471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_19
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 14
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcc891e228490bb0800000000000000
+      internalID: -4969361399175656259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaning Ability Right Robot Player_20
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 14
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134c642501ff5d3d0800000000000000
+      internalID: -3182357116102458319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cleaning Ability Right Robot Player_0: -8428571065857241238
+      Cleaning Ability Right Robot Player_1: 2177564138580413725
+      Cleaning Ability Right Robot Player_10: 8188027333935895617
+      Cleaning Ability Right Robot Player_11: 3484147998215790085
+      Cleaning Ability Right Robot Player_12: -3418251113194414138
+      Cleaning Ability Right Robot Player_13: 3996381165086604413
+      Cleaning Ability Right Robot Player_14: 7654475626704541467
+      Cleaning Ability Right Robot Player_15: 4822732683596519067
+      Cleaning Ability Right Robot Player_16: -8272575454098710934
+      Cleaning Ability Right Robot Player_17: 4554597098457650766
+      Cleaning Ability Right Robot Player_18: 4862312555297369471
+      Cleaning Ability Right Robot Player_19: -4969361399175656259
+      Cleaning Ability Right Robot Player_2: -7657595955751059776
+      Cleaning Ability Right Robot Player_20: -3182357116102458319
+      Cleaning Ability Right Robot Player_3: -6430284306903899624
+      Cleaning Ability Right Robot Player_4: 1329414896780205072
+      Cleaning Ability Right Robot Player_5: -3898999295067613588
+      Cleaning Ability Right Robot Player_6: -857420282468370167
+      Cleaning Ability Right Robot Player_7: -2983584957038803722
+      Cleaning Ability Right Robot Player_8: -2321200021249851273
+      Cleaning Ability Right Robot Player_9: 2142081752081042516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
