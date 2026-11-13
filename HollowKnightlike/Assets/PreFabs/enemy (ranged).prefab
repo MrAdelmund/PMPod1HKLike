@@ -325,6 +325,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 3
+  invulnrable: 0
+  stunned: 0
+  StunDuration: 0.5
 --- !u!50 &8823478993090744399
 Rigidbody2D:
   serializedVersion: 5
@@ -344,7 +347,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -369,10 +372,11 @@ MonoBehaviour:
   speed: 10
   player: {fileID: 0}
   ranged: 1
-  range: 5
+  range: 10
   bullet: {fileID: 371364735883426612}
-  Shotspeed: 5
-  cooldown: 3
+  Shotspeed: 3
+  cooldown: 5
+  stop: 0
 --- !u!61 &8478692026917787094
 BoxCollider2D:
   m_ObjectHideFlags: 0
