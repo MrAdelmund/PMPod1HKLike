@@ -21,8 +21,7 @@ public class StupidEnemyAi : MonoBehaviour
     public float Shotspeed;
     public float cooldown;
     float time = 0;
-    float lastDirection;
-
+     bool stop;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -38,16 +37,24 @@ public class StupidEnemyAi : MonoBehaviour
     void Start()
     {
       
-    }
-
+    
+    
+    }    
     // Update is called once per frame
     void Update()
     {
-        float yVel = rb.linearVelocity.y;
-        rb.linearVelocity = new Vector2(speed *100 * direction * Time.deltaTime, yVel );
-
+        stop = gameObject.GetComponent<Enemy>().stunned;
+        if (!stop)
+        { 
+            float yVel = rb.linearVelocity.y;
+            rb.linearVelocity = new Vector2(speed * 100 * direction * Time.deltaTime, yVel);
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        }
         //other stuff it does if its ranged
-        if (ranged)
+        if (ranged && !stop )
         {
             time += Time.deltaTime;
             if (time >= cooldown)

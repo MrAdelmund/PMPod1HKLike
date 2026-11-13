@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
     float colorR;
     float ColorG;
     float ColorB;
+    public bool stunned;
+    public float StunDuration = 0.5f;
 
     private void Start()
     {
@@ -31,12 +33,27 @@ public class Enemy : MonoBehaviour
         if (!invulnrable)
         { 
             health -= damage;
-        flash();
+            flash();
+            stun();
         }
+       
 
         if (health <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    void stun ()
+    {
+       if( stunned)
+        {
+            stunned = false;
+        }
+        else
+        {
+            stunned = true;
+            Invoke(nameof(stun), StunDuration);
         }
     }
 }

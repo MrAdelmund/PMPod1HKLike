@@ -1,4 +1,5 @@
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Chaserenemyai : MonoBehaviour
@@ -23,7 +24,7 @@ public class Chaserenemyai : MonoBehaviour
 
     public float direction;
     public bool Canjump = true;
-
+    bool stop;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -67,32 +68,41 @@ public class Chaserenemyai : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //jumping
-        if ((player.transform.position.y > gameObject.transform.position.y + 0.5f) && JumpEnabled && Canjump)
+        stop = gameObject.GetComponent<Enemy>().stunned;
+        if (!stop)
         {
-            Canjump = false;
-           
-            Invoke(nameof(jump), jumpDelay);
+            //jumping
+            if ((player.transform.position.y > gameObject.transform.position.y + 0.5f) && JumpEnabled && Canjump)
+            {
+                Canjump = false;
 
-            
-           
-        }
-        //walking
-        if (player.transform.position.x > gameObject.transform.position.x)
-        {
-            direction = 1;
-        }
-        else if (player.transform.position.x < gameObject.transform.position.x)
-        {
-            direction = -1;
+                Invoke(nameof(jump), jumpDelay);
+
+
+
+            }
+            //walking
+            if (player.transform.position.x > gameObject.transform.position.x)
+            {
+                direction = 1;
+            }
+            else if (player.transform.position.x < gameObject.transform.position.x)
+            {
+                direction = -1;
+            }
+            else
+            {
+                direction = 0;
+            }
+            float yVel = RB.linearVelocity.y;
+            RB.linearVelocity = new Vector2(speed * 100 * direction * Time.deltaTime, yVel);
+
         }
         else
         {
-            direction = 0;
+            RB.linearVelocity = new Vector2(0, RB.linearVelocity.y);
         }
-        float yVel = RB.linearVelocity.y;
-        RB.linearVelocity = new Vector2(speed * 100 * direction * Time.deltaTime, yVel);
-
-
     }
+    
+    
 }
