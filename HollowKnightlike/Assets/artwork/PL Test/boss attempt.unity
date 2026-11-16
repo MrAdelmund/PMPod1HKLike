@@ -2819,7 +2819,7 @@ Transform:
   m_GameObject: {fileID: 6546034597776522172}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.37399, y: 17.132725, z: 0}
+  m_LocalPosition: {x: 55.12095, y: 32.237885, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2885,7 +2885,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0.5
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -3096,7 +3096,7 @@ MonoBehaviour:
   Shotspeed: 0
   cooldown: 1.5
   invinvible: 0
-  jump: 10
+  jump: 5
   DoingAttack: 0
   timer: 0
 --- !u!1001 &7543102652674261931

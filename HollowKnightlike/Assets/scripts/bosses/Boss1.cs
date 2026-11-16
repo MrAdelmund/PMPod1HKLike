@@ -1,3 +1,4 @@
+using NUnit.Framework.Constraints;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -10,6 +11,7 @@ public class Boss1 : MonoBehaviour
     public float cooldown;
     public bool invinvible;
     public float jump = 0;
+    bool spawned;
     [Header("debugging References")]
     public float DoingAttack;
     public float timer;
@@ -22,7 +24,7 @@ public class Boss1 : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-       // if (bossActive.GetComponent<BossActive>().bossActive)
+       if (bossActive.GetComponent<BossActive>().bossActive)
         {
             touchedgrass = true;
         }
@@ -31,6 +33,12 @@ public class Boss1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+        if ( spawned == false && bossActive.GetComponent<BossActive>().bossActive )
+        {
+            spawned = true;
+            transform.position = new Vector3(55f, 27f, 0f);
+        }
         if (touchedgrass)
         {
             timer -= 1 * Time.deltaTime;
