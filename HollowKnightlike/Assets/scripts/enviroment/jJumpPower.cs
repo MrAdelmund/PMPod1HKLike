@@ -6,6 +6,7 @@ public class jJumpPower : MonoBehaviour
     public float Walljumps;
     public float doublejumps;
     public int Health;
+    public float JumpPower;
     public bool IsInfinite;
 
     [Header("Upgrade Stuff")]
@@ -25,6 +26,7 @@ public class jJumpPower : MonoBehaviour
             player.GetComponent<PlayerMovement>().MaxDoubleJumps += MaxDoubleJumps;
             player.GetComponent<PlayerMovement>().MaxWallJumps += MaxWallJumps;
             player.GetComponent<PlayerHealth>().health += Health;
+            player.GetComponent<PlayerMovement>().jumpForce += JumpPower;
             player.BroadcastMessage("updateText");
             if (usesDashes)
             {
