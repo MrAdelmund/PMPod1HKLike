@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: be3460def92f9304dad522f3a8aeef9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7669761853293164211
+    second: Robot Fireball Ranged Attack_0
+  - first:
+      213: 8871598232452902703
+    second: Robot Fireball Ranged Attack_1
+  - first:
+      213: -303769363748848121
+    second: Robot Fireball Ranged Attack_2
+  - first:
+      213: -3983360350517920256
+    second: Robot Fireball Ranged Attack_3
+  - first:
+      213: 4444409056808484396
+    second: Robot Fireball Ranged Attack_4
+  - first:
+      213: 6324442513496113585
+    second: Robot Fireball Ranged Attack_5
+  - first:
+      213: -5425334894306527102
+    second: Robot Fireball Ranged Attack_6
+  - first:
+      213: -5798344307740937045
+    second: Robot Fireball Ranged Attack_7
+  - first:
+      213: 4148096892641543309
+    second: Robot Fireball Ranged Attack_8
+  - first:
+      213: 7566202436819271405
+    second: Robot Fireball Ranged Attack_9
+  - first:
+      213: 7588837036112982170
+    second: Robot Fireball Ranged Attack_10
+  - first:
+      213: 8209939931377489323
+    second: Robot Fireball Ranged Attack_11
+  - first:
+      213: -3894673876318414636
+    second: Robot Fireball Ranged Attack_12
+  - first:
+      213: 8952216112674419794
+    second: Robot Fireball Ranged Attack_13
+  - first:
+      213: -655204892487253589
+    second: Robot Fireball Ranged Attack_14
+  - first:
+      213: -7072212191238255245
+    second: Robot Fireball Ranged Attack_15
+  - first:
+      213: 6397757834972875929
+    second: Robot Fireball Ranged Attack_16
+  - first:
+      213: -843200783713710152
+    second: Robot Fireball Ranged Attack_17
+  - first:
+      213: -6301206932150588004
+    second: Robot Fireball Ranged Attack_18
+  - first:
+      213: 4942525785604783729
+    second: Robot Fireball Ranged Attack_19
+  - first:
+      213: -2200432018843642411
+    second: Robot Fireball Ranged Attack_20
+  - first:
+      213: 8317608250956444417
+    second: Robot Fireball Ranged Attack_21
+  - first:
+      213: 1809390367300790283
+    second: Robot Fireball Ranged Attack_22
+  - first:
+      213: -1631056046516709715
+    second: Robot Fireball Ranged Attack_23
+  - first:
+      213: 4924556098746492304
+    second: Robot Fireball Ranged Attack_24
+  - first:
+      213: -8345809598755050407
+    second: Robot Fireball Ranged Attack_25
+  - first:
+      213: 2225271198715166965
+    second: Robot Fireball Ranged Attack_26
+  - first:
+      213: 2097957401512375527
+    second: Robot Fireball Ranged Attack_27
+  - first:
+      213: -124143068806919607
+    second: Robot Fireball Ranged Attack_28
+  - first:
+      213: 1191699695701709179
+    second: Robot Fireball Ranged Attack_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b67169f4c7707a60800000000000000
+      internalID: 7669761853293164211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fa653b69f3e1b70800000000000000
+      internalID: 8871598232452902703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e7a148f5bc8cbf0800000000000000
+      internalID: -303769363748848121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 13
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ef00fadd248b8c0800000000000000
+      internalID: -3983360350517920256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 13
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e399b5d76bdad30800000000000000
+      internalID: 4444409056808484396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1805b25fee4c750800000000000000
+      internalID: 6324442513496113585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288f35588a655b4b0800000000000000
+      internalID: -5425334894306527102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 13
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba471b3b294288fa0800000000000000
+      internalID: -5798344307740937045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d840dc37520019930800000000000000
+      internalID: 4148096892641543309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deebe41670d800960800000000000000
+      internalID: 7566202436819271405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 13
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90b7d3b317f05960800000000000000
+      internalID: 7588837036112982170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 13
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5dc059ed09fe170800000000000000
+      internalID: 8209939931377489323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d81c0e8eb653f9c0800000000000000
+      internalID: -3894673876318414636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_13
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254bc74af19ac3c70800000000000000
+      internalID: 8952216112674419794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_14
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba103382f9e38e6f0800000000000000
+      internalID: -655204892487253589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_15
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d8e057b747add90800000000000000
+      internalID: -7072212191238255245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_16
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cc788aad669c850800000000000000
+      internalID: 6397757834972875929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_17
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfc96cca595c44f0800000000000000
+      internalID: -843200783713710152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_18
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 13
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d6fe03ead9d88a0800000000000000
+      internalID: -6301206932150588004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_19
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 13
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e7e20f301679440800000000000000
+      internalID: 4942525785604783729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_20
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5dd6cbcbe7671e0800000000000000
+      internalID: -2200432018843642411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_21
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103fd1bb2a41e6370800000000000000
+      internalID: 8317608250956444417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_22
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 13
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b082af6d3fe3c1910800000000000000
+      internalID: 1809390367300790283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_23
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da65e9ada235d59e0800000000000000
+      internalID: -1631056046516709715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_24
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 13
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095a44e2ea9875440800000000000000
+      internalID: 4924556098746492304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 13
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ce82f436abd2c80800000000000000
+      internalID: -8345809598755050407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_26
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 13
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f043508d50c1ee10800000000000000
+      internalID: 2225271198715166965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_27
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4fb0724217d1d10800000000000000
+      internalID: 2097957401512375527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_28
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 13
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94acf626984f64ef0800000000000000
+      internalID: -124143068806919607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Fireball Ranged Attack_29
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71dd313f84c98010800000000000000
+      internalID: 1191699695701709179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Robot Fireball Ranged Attack_0: 7669761853293164211
+      Robot Fireball Ranged Attack_1: 8871598232452902703
+      Robot Fireball Ranged Attack_10: 7588837036112982170
+      Robot Fireball Ranged Attack_11: 8209939931377489323
+      Robot Fireball Ranged Attack_12: -3894673876318414636
+      Robot Fireball Ranged Attack_13: 8952216112674419794
+      Robot Fireball Ranged Attack_14: -655204892487253589
+      Robot Fireball Ranged Attack_15: -7072212191238255245
+      Robot Fireball Ranged Attack_16: 6397757834972875929
+      Robot Fireball Ranged Attack_17: -843200783713710152
+      Robot Fireball Ranged Attack_18: -6301206932150588004
+      Robot Fireball Ranged Attack_19: 4942525785604783729
+      Robot Fireball Ranged Attack_2: -303769363748848121
+      Robot Fireball Ranged Attack_20: -2200432018843642411
+      Robot Fireball Ranged Attack_21: 8317608250956444417
+      Robot Fireball Ranged Attack_22: 1809390367300790283
+      Robot Fireball Ranged Attack_23: -1631056046516709715
+      Robot Fireball Ranged Attack_24: 4924556098746492304
+      Robot Fireball Ranged Attack_25: -8345809598755050407
+      Robot Fireball Ranged Attack_26: 2225271198715166965
+      Robot Fireball Ranged Attack_27: 2097957401512375527
+      Robot Fireball Ranged Attack_28: -124143068806919607
+      Robot Fireball Ranged Attack_29: 1191699695701709179
+      Robot Fireball Ranged Attack_3: -3983360350517920256
+      Robot Fireball Ranged Attack_4: 4444409056808484396
+      Robot Fireball Ranged Attack_5: 6324442513496113585
+      Robot Fireball Ranged Attack_6: -5425334894306527102
+      Robot Fireball Ranged Attack_7: -5798344307740937045
+      Robot Fireball Ranged Attack_8: 4148096892641543309
+      Robot Fireball Ranged Attack_9: 7566202436819271405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
