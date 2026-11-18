@@ -1,0 +1,5 @@
+prefabs (except maybe the jump orb) are only colored so we can tell whats what right now.
+
+once we have sprites for everything (except maybe the jump orb) should be white (255,255,255)
+
+otherwise they'll discolor the sprites
