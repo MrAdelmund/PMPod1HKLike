@@ -1,8 +1,10 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
+    public bool CanMove;
     public float moveSpeed = 8f;
 
     [Header("Jump")]
@@ -64,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
     public int facingDirection = 1;
 
 
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -73,24 +75,32 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (isDashing) return;
-
-        moveInput = Input.GetAxis("Horizontal");
-
-        CheckGround();
-        CheckWall();
-
-        HandleMovement();
-        HandleJump();
-        HandleDash();
-
-        if(rb.linearVelocity.y > 0)
+        if (CanMove)
         {
-            isJumping = true;
+            if (isDashing) return;
+
+            moveInput = Input.GetAxis("Horizontal");
+
+            CheckGround();
+            CheckWall();
+
+            HandleMovement();
+            HandleJump();
+            HandleDash();
+
+            if (rb.linearVelocity.y > 0)
+            {
+                isJumping = true;
+            }
+            else
+            {
+                isJumping = false;
+            }
         }
         else
+        
         {
-            isJumping = false;
+            rb.linearVelocity = new Vector2(0,0);
         }
     }
 
