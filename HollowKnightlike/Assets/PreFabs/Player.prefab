@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 1284946683642244616}
   - component: {fileID: 8267579906688262551}
   - component: {fileID: 8675554230110504115}
+  - component: {fileID: 2506703377448706557}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -319,6 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db901cf73c315848864de8c10bdd929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanMove: 0
   moveSpeed: 8
   jumpForce: 8.5
   dashEnabled: 1
@@ -328,6 +330,7 @@ MonoBehaviour:
   doubleJumpEnabled: 1
   CurrentDoubleJumps: 0
   MaxDoubleJumps: 1
+  DoubleJumpBonus: 2
   wallJumpEnabled: 1
   wallJumpForceX: 12
   wallJumpForceY: 16
@@ -452,7 +455,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   health: 3
-  healthText: {fileID: 0}
+  stopUpdating: 0
   DashGivesIFrames: 1
-  PlayerMovement: {fileID: 6247353667074609593}
+  IFrames: 0
+  healthText: {fileID: 0}
   PlayerDashing: 0
+  Invincible: 0
+  PlayerMovement: {fileID: 6247353667074609593}
+  PlayerSpriteRenderer: {fileID: 0}
+--- !u!114 &2506703377448706557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439358435578549629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be1ed67bf26c08479ada728da96a85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  transpearency: 1
+  Elevator: {fileID: 0}
+  SpriteRender: {fileID: 2047845188270967380}
