@@ -287,6 +287,7 @@ MonoBehaviour:
     m_Bits: 16
   playerMovement: {fileID: 59268825}
   isAttacking: 0
+  isjumping: 0
 --- !u!70 &59268822
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -409,6 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db901cf73c315848864de8c10bdd929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanMove: 0
   moveSpeed: 8
   jumpForce: 9
   dashEnabled: 1
@@ -416,9 +418,15 @@ MonoBehaviour:
   dashDuration: 0.15
   dashCooldown: 0.5
   doubleJumpEnabled: 1
+  CurrentDoubleJumps: 0
+  MaxDoubleJumps: 1
+  DoubleJumpBonus: 2
   wallJumpEnabled: 1
   wallJumpForceX: 12
   wallJumpForceY: 16
+  LimitedWallJumps: 0
+  CurrentWallJumps: 3
+  MaxWallJumps: 3
   coyoteTimeEnabled: 1
   coyoteTime: 0.15
   groundCheck: {fileID: 1113321518}
@@ -429,11 +437,14 @@ MonoBehaviour:
   wallCheckLeft: {fileID: 56914028}
   wallCheckRight: {fileID: 2067540297}
   wallCheckDistance: 0.4
+  touchingWallLeft: 0
+  touchingWallRight: 0
   moveInput: 0
   isGrounded: 0
   isTouchingWall: 0
   canDoubleJump: 0
   isDashing: 0
+  isJumping: 0
   facingDirection: 1
 --- !u!212 &59268826
 SpriteRenderer:
@@ -560,6 +571,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   health: 3
+  stopUpdating: 0
+  DashGivesIFrames: 0
+  IFrames: 0
+  healthText: {fileID: 0}
+  PlayerDashing: 0
+  Invincible: 0
+  PlayerMovement: {fileID: 0}
+  PlayerSpriteRenderer: {fileID: 0}
 --- !u!1 &82779222
 GameObject:
   m_ObjectHideFlags: 0
