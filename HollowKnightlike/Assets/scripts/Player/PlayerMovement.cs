@@ -106,7 +106,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Keyboard.current.eKey.isPressed)
         {
-            Animator.SetTrigger("Ability Left");
+            Animator.SetTrigger("Ability Right");
         }
 
     }
