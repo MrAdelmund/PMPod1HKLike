@@ -1,8 +1,10 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Animator Animator;
     [Header("Movement")]
     public bool CanMove;
     public float moveSpeed = 8f;
@@ -102,6 +104,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(0,0);
         }
+        if (Keyboard.current.eKey.isPressed)
+        {
+            Animator.SetTrigger("Ability Right");
+        }
+
     }
 
     void CheckGround()
@@ -142,11 +149,17 @@ public class PlayerMovement : MonoBehaviour
         {
             facingDirection = 1;
             transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
+            Animator.SetFloat("Speed", -100);
         }
         else if (moveInput < 0)
         {
             facingDirection = -1;
             transform.localScale = new Vector3(facingDirection, transform.localScale.y, transform.localScale.z);
+            Animator.SetFloat("Speed", -100);
+        }
+        else
+        {
+            Animator.SetFloat("Speed", 0);
         }
     }
 
@@ -158,15 +171,18 @@ public class PlayerMovement : MonoBehaviour
             if (isGrounded || (coyoteTimeEnabled && coyoteTimer > 0))
             {
                 Jump();
+                Animator.SetTrigger("Jump");
             }
             // Wall Jump
             else if (wallJumpEnabled && (touchingWallLeft || touchingWallRight))
             {
                 WallJump();
+                Animator.SetTrigger("Double Jump");
             }
             // Double Jump
             else if (doubleJumpEnabled && canDoubleJump)
             {
+                Animator.SetTrigger("Double Jump");
                 if (CurrentDoubleJumps > 0)
                 {
                     CurrentDoubleJumps -= 1;
@@ -231,7 +247,7 @@ public class PlayerMovement : MonoBehaviour
     System.Collections.IEnumerator Dash()
     {
         isDashing = true;
-
+        Animator.SetTrigger("Dash Left");
         dashCooldownTimer = dashCooldown;
 
         float originalGravity = rb.gravityScale;

@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 8267579906688262551}
   - component: {fileID: 8675554230110504115}
   - component: {fileID: 2506703377448706557}
+  - component: {fileID: 6114483757916221565}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -320,7 +321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db901cf73c315848864de8c10bdd929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanMove: 0
+  Animator: {fileID: 6114483757916221565}
+  CanMove: 1
   moveSpeed: 8
   jumpForce: 8.5
   dashEnabled: 1
@@ -395,6 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec47c138071d15418fd446ddce3bb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  Animator: {fileID: 6114483757916221565}
   attackDamage: 1
   attackRange: 1
   attackCooldown: 0.3
@@ -478,3 +481,25 @@ MonoBehaviour:
   transpearency: 1
   Elevator: {fileID: 0}
   SpriteRender: {fileID: 2047845188270967380}
+--- !u!95 &6114483757916221565
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439358435578549629}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2d42a4e8e5e38d04a889cfe15cc23384, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    public Animator Animator;
     [Header("Attack Settings")]
     public int attackDamage = 1;
     public float attackRange = 0.5f;
@@ -26,6 +27,7 @@ public class PlayerAttack : MonoBehaviour
         {
             Attack();
             isAttacking = true;
+            Animator.SetTrigger("R Melee");
         }
 
         if(cooldownTimer <= 0)
